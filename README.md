@@ -1,4 +1,4 @@
-# Backoffice - Gestao de Empresas e Usuários
+# Backoffice - Gestão de Empresas e Usuários
 
 Aplicação frontend em Vue 3 para gerenciamento de empresas e usuários, simulando um backoffice real. O projeto utiliza Composition API, Tailwind e um servidor fake em memória para CRUD de empresas e usuários.
 
@@ -54,7 +54,7 @@ Aplicação frontend em Vue 3 para gerenciamento de empresas e usuários, simula
 - Validação de e-mail único
 - Feedback de sucesso e erro (toast)
 
-## Instalacao
+## Instalação
 
 ```bash
 npm install --legacy-peer-deps
@@ -69,7 +69,7 @@ npm run lint
 npm run type-check
 ```
 
-## Observacoes
+## Observação
 
 - API fake roda localmente em memória (sem backend real).
 - O login aceita senha mock: `admin`.
