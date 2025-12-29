@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": false,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "useDefineForClassFields": true,
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "baseUrl": ".",
+    "paths": {
+      "vue": ["src/types/vue-module.d.ts"],
+      "@/*": ["src/*"],
+      "@/components/*": ["src/components/*/index.vue", "src/components/*"]
+    },
+    "types": ["webpack-env"],
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.js"],
+  "exclude": ["node_modules"]
+}
