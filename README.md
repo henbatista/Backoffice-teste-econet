@@ -10,7 +10,7 @@ Aplicação frontend em Vue 3 para gerenciamento de empresas e usuários, simula
 - TailwindCSS
 - Axios (com adapter fake)
 - Toasts e Tooltips
-- TypeScript (migracao completa)
+- TypeScript
 
 ## Funcionalidades
 
